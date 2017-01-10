@@ -1,6 +1,6 @@
 (function () {
 
-  function _drawMadole() {
+  function drawMadole() {
     var opts, svg;
     opts = {
       selector: '#madole',
@@ -10,7 +10,7 @@
     svg.draw();
   }
 
-  function _drawHead() {
+  function drawHead() {
     var opts, svg;
     opts = {
       selector: '#pic',
@@ -20,7 +20,7 @@
     svg.draw();
   }
 
-  _drawHead();
-  _drawMadole();
+  drawHead();
+  drawMadole();
 
 })();
